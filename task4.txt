@@ -4,6 +4,6 @@ git remote set-url origin https://ssampathk:ghp_RK4KqwGf9xuPaXaWWUm9QQiO64QCCb4O
 git checkout -b dev  # Creates and checks out a new branch called 'dev'
 #touch .gitignore # Create a .gitignore file in the root of your repository to specify files and folders to ignore.
 #touch .dockerignore #Create a .dockerignore file in the root of your repository to specify files and folders to ignore during the Docker build process.
-git add .  # Adds all files and changes to the staging area
-git commit -m "Initial commit on dev branch with .gitignore and .dockerignore"
+git add .  # this Adds all files and changes to the staging area
+git commit -m "Initial commit on dev branch with .gitignore and .dockerignore files"
 git push origin dev1  # Pushes changes to the 'dev' branch on the remote repository
